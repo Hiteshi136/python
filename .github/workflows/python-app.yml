@@ -18,5 +18,4 @@ jobs:
     - name: Build Project 
       run: npm run build
     - name: Test with pytest
-      run: |
-        pytest
+      run: pytest
